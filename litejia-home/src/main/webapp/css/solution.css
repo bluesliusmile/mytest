@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1125px;
+    /*min-height: 555px;*/
+font-family: 'Microsoft YaHei';
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;}
+.fr{
+    float: right;
+}
+#menu { position: fixed; right: 20px; top: 50%; width: 90px; margin: -160px 0 0; padding: 0; list-style-type: none; z-index: 70;}
+#menu li { margin-top: 10px; font: 14px "Microsoft Yahei";}
+#menu a { display: block; padding: 10px 0; background-color: #fff; color: #0074EA; text-align: center; text-decoration: none;}
+#menu .active a { color: #fff; background-color: rgb(0, 116, 234);}
+
+.nav-top {
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 120px;
+    z-index: 999;
+
+}
+.nav-top-link {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    z-index: 999;
+
+    /*float: right;*/
+    /*padding-top:3%;*/
+}
+.nav-top-link a {
+    margin-left: 50px;
+    font-size: 18px;
+    color: #000;
+    line-height: 100%;
+    vertical-align:middle;
+}
+.nav-top-link .has-menu a {
+    margin: 0;
+}
+.nav-top-link a, .nav-top-link a:focus, .nav-top-link a:hover {
+    text-decoration: none;
+}
+.nav-top-link a:hover {
+    color: #df1000;
+}
+
+.section1{
+    background:url("../img/banner1.png")50% no-repeat;
+    background-size: cover;
+}
+.section2{
+    background:url("../img/solution/hulianwang+.png")50% no-repeat;
+    background-size: cover;
+
+}
+.section3{
+    background:url("../img/solution/jinrongbanner.png") no-repeat;
+    background-size: cover;
+}
+.section4{
+    background:url("../img/solution/CRM.jpg")50% no-repeat;
+    background-size: cover;
+}
+.section5{
+    background:url("../img/solution/web.png")50% no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+}
+.section3 .jinweiweb{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 99;
+    width: 135px;
+    height: 162px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 50px;
+    /* background: rgba(64, 107, 148, 0.82); */
+    display: none;
+    animation-delay: 500ms;
+}
+/*.section3 .jinweiweb img{*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+/*}*/
+.section3 .jinweb{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    text-align: center;
+    z-index: 99;
+    width: 80px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 50px;
+    /*background: rgba(64, 107, 148, 0.82);*/
+    display: none;
+    animation-delay: 900ms;
+
+}
+.section3 .jinweb img{
+    position: absolute;
+    top: 20px;
+    left: -80px;
+}
+.section3 .jinapp{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    text-align: center;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 50px;
+    /*background: rgba(64, 107, 148, 0.82);*/
+    display: none;
+    animation-delay: 1200ms;
+}
+.section3 .jinapp img{
+    position: absolute;
+    left: 99px;
+    top: 6px;
+}
+.section3 .xiangmu{
+
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    text-align: center;
+    z-index: 99;
+    width: 69px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 45px;
+    /* background: rgba(64, 107, 148, 0.82); */
+    display: none;
+    animation-delay: 1500ms;
+}
+.section3 .xiangmu img{
+    position: absolute;
+    left: -99px;
+    top: 5px;
+}
+.section3 .guanghuan{
+    width: 508px;
+    margin: 0 auto;
+}
+.section3 .datongjinfu1{    display: none;animation-delay: 500ms;}
+.section3 .datongjinfu2{    display: none;animation-delay: 900ms;}
+.section3 .datongjinfu3{   display: none; animation-delay: 1200ms;}
+.section3 .datongjinfu4{    display: none;animation-delay: 1500ms;}
+.section3 .text{
+
+
+
+}
+.nanjing{
+    font-size: 70px;
+    text-align: center;
+    display: none;
+    margin-top: -100px;
+    color: rgba(0,0,0,0.5);
+    animation-delay: 500ms;
+}
+.litejia{
+
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.5rem;
+    color: #000;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: none;
+    animation-delay: 1200ms;
+    text-align: center;
+
+
+}
+.litejia p{
+
+}
+.section5{
+    /*position: relative;*/
+}
+.section4 .content{
+
+
+}
+.section4 .first h1{
+
+}
+.section4 .first{
+    font-size: 1.1rem;
+    /*display: none;*/
+    /*animation-delay: 500ms;*/
+}
+.section4 .first h1{   display: none;animation-delay: 400ms}
+.section4 .firstcontent{
+    display: none;
+    animation-delay: 900ms;
+
+}
+.section4 .secondcontent{
+    display: none;
+    animation-delay: 1200ms;
+}
+.section4 .second h1{
+    margin-top: 10px; display: none;animation-delay: 600ms
+}
+.section4 .second{
+    font-size: 1.1rem;
+}
+
+ul{
+    list-style: none;
+}
+.section5 ul li{
+    margin-left:10px;
+    float: left;
+}
+/*.clearfix{*/
+    /*clear: both;*/
+/*}*/
+.section5 .APP{
+
+}
+.section5 .APP1{
+
+    display: none;
+    animation-delay: 300ms;
+}
+.section5 .APP2{
+    display: none;
+    animation-delay: 600ms;
+
+}
+.section5 .APP3{
+
+    display: none;
+    animation-delay: 900ms;
+}
+.section5 .APP4{
+    display: none;
+    animation-delay: 1100ms;
+
+}
+.juzhong{
+    width: 1111px;
+    margin: 0 auto;
+    position: relative;
+}
+.section2 .fuwu{
+    width: 600px;
+    font-size: 1.5rem;
+    display: none;
+    animation-delay: 500ms;
+}
+.section2 h1{
+}
+.section2 .gongneng{
+    width: 600px;
+    font-size: 1.5rem;
+    display: none;
+    animation-delay: 800ms;
+}
+.section2 .rrycimg{
+
+    position: absolute;
+    right:0;
+    top: 0;
+    z-index: 999;
+    display: none;
+    animation-delay: 1000ms;
+}
